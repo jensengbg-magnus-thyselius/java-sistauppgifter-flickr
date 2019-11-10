@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pic Searcher Deluxe</title>
+        <meta name="description" content="Flickr tag search">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="wapper">
+            <header class="header">
+                <form id="searchform">
+                    <!--<p>Tag</p>-->
+                    <input type="text" placeholder="Pictures of what?" class="taglinebar" id="inputData">
+                    <!--<p>Amount of pictures?</p>-->
+                    <input type="number" placeholder="Who many of pictures?" class="amountbar" id="inputAmount">
+                    <button class="button">Search!</button>
+                </form>
+            </header>
+            <main class="main">
+                <div class="grid" id="listPics">
+
+                </div>
+                
+                <div id="lightbox">
+                    <div id="lightbox_content">
+                        <div id="close">&times;</div>
+                        <img src="" id="lightbox_picture">
+                    </div>
+                </div>
+
+            </main>
+            <footer class="footer">                
+            </footer>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
